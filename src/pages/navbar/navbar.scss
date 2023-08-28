@@ -1,0 +1,79 @@
+.navWrap{
+    .content{
+        height: 85px;
+        display: flex;
+        padding-top: 15px;
+        margin-bottom: 10px;
+        justify-content: space-between;
+        .navbar-brand{
+            height: 46px;
+            img{
+                height: 46px;
+                margin: 0;
+            }
+        }
+        .addresNav{
+            width: 350px;
+            margin-left: 150px;
+            h5{
+                font-size: 15px;
+                line-height: 18px;
+                color: #1A1A1A;
+                font-weight: 600;
+                font-family: Roboto;
+                text-align: start;
+            }
+            p{
+                font-size: 15px;
+                line-height: 18px;
+                color: #1A1A1A;
+                font-weight: 400;
+                font-family: Roboto;
+                width: 300px;
+                text-align: start;
+            }
+        }
+        .contactNav{
+            width: 221px;
+            border-left: 3px solid #DB2777;
+            padding-left: 30px;
+            p{
+                margin: 0;
+                padding: 2px;
+                font-size: 15px;
+                line-height: 18px;
+                color: #1A1A1A;
+                font-weight: 400;
+                font-family: Roboto;
+                width: 300px;
+                text-align: start;
+                span{
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .navbar{
+        background-color: #DB2777 !important;
+        .collapse{
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                li{
+                    a{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navWrap{
+        .content{
+            display: none;
+        }
+    }
+}

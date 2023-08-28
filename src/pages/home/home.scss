@@ -1,0 +1,57 @@
+.home1{
+    height: 704px;
+    background-image: url("../../assets/img/Rectangle68.png");
+    background-size: cover;
+    .row{
+        .col{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            .col1_content{
+                h1{
+                    color: #DB2777;
+                    font-size: 56px;
+                    line-height: 58px;
+                    font-weight: 700;
+                    font-family: Oswald;
+                    text-align: start;
+                    b{
+                        color: #191919;
+                    }
+                }
+                p{
+                    font-size: 20px;
+                    font-family: Oswald;
+                    line-height: 37px;
+                    font-weight: 400;
+                    color: #000000;
+                    text-align: start;
+                    margin-top: 18px;
+                }
+                .homeBtn{
+                    width: 255px;
+                    height: 53px;
+                    display: flex;
+                    justify-content: center;
+                    background-color: #757AF3;
+                    color: white;
+                    border-radius: 42px;
+                    margin-top: 20px;
+                    border-style: none;
+                    text-align: center;
+                    align-items: center;
+                    font-size: 20px;
+                    line-height: 23px;
+                    font-weight: 500;
+                    font-family: Roboto;
+                }
+            }
+            img{
+                margin-top: 117px;
+            }
+        }
+        .col1{
+            margin-left: 25px;
+        }
+    }
+}
