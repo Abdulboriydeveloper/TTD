@@ -1,0 +1,444 @@
+.uslugaPage{
+    .uslugaPageTop{
+        background-image: url("../../assets/img/usluga1.png");
+        background-size: cover;
+        .container-xl{
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+            .rowUslugaTop{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .contentUsluga{
+                    width: 40%;
+                    p{
+                        color: #DB2777;
+                        font-family: Oswald;
+                        font-size: 60px;
+                        font-style: normal;
+                        font-weight: 700;
+                        text-align: start;
+                        line-height: 97.523%; /* 58.514px */
+                        b{
+                            color: #191919;
+                        }
+                    }
+                    h6{
+                        color: #000;
+                        font-family: Oswald;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        text-align: start;
+                    }
+                }
+                .imgUsluga{
+                    // width: 50%;
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
+    .allUslugaWrapper{
+        background-image: url("../../assets/img/Vector.png");
+        // background-position-y: 50px;
+        background-repeat: no-repeat;
+        .container-xl{
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+        }
+        .allUsluga{
+            .uslugaTitile{
+                color: #DB2777;
+                text-align: end;
+                font-family: Oswald;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 97.523%; /* 39.009px */
+                b{
+                    color: #191919;
+                }
+            }
+            .usluga_cards{
+                margin-top: 60px;
+                .slide_card{
+                    display: flex;
+                    justify-content: space-between;
+                    // gap: 30px;
+                    .col-5{
+                        width: 49%;
+                        display: flex;
+                        justify-content: left;
+                        gap: 5%;
+                        border-radius: 42px;
+                        border: 1px solid rgba(0, 0, 0, 0.10);
+                        background: #FFF;
+                        padding: 16px;
+                        margin-bottom: 30px;
+                        img{
+                            width: 198px !important;
+                            height: 198px;
+                            flex-shrink: 0;
+                            border-radius: 42px;
+                            background-color: #000;
+                        }
+                        .card_content{
+                            width: 60%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: start;
+                            flex-direction: column;
+                            h6{
+                                color: #DB2777;
+                                text-align: left;
+                                font-family: Oswald;
+                                font-size: 25px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 97.523%; /* 24.381px */
+                            }
+                            p{
+                                color: #191919;
+                                font-family: Roboto;
+                                font-size: 15px;
+                                text-align: left;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 97.523%; /* 14.628px */
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .ourDocWrap{
+            background-image: url("../../assets/img/Vector2.png");
+            background-position-y: 80%;
+            background-repeat: no-repeat;
+            .container-xl{
+                padding-left: 5% !important;
+                padding-right: 5% !important;
+                .ourDoctors{
+                    margin-top: 80px;
+                    .docTitle{
+                        color: #191919;
+                        font-family: Oswald;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 97.523%; /* 39.009px */
+                        b{
+                            color: #DB2777;
+                        }
+                    }
+                    .doc_cards{
+                        margin-top: 60px;
+                        margin-bottom: 90px;
+                        .doc_cards_row{
+                            display: flex;
+                            justify-content: start;
+                            gap: 3%;
+                            .col-4{
+                                width: 31%;
+                                border-radius: 42px;
+                                border: 1px solid rgba(0, 0, 0, 0.10);
+                                background: #FFF;
+                                box-shadow: 7px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                                margin-bottom: 30px;
+                                padding: 23px;
+                                img{
+                                    width: 340px;
+                                    // height: 304px;
+                                    border-radius: 42px;
+                                    background-color: rgb(213, 214, 211);
+                                }
+                                .card_content{
+                                    h6{
+                                        color: #DB2777;
+                                        font-family: Oswald;
+                                        font-size: 22px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 97.523%; /* 21.455px */
+                                        margin-top: 25px;
+                                        text-align: left;
+                                        height: 60px;
+                                    }
+                                    p{
+                                        color: #191919;
+                                        font-family: Roboto;
+                                        font-size: 20px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 97.523%; /* 19.505px */
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .uslugaPage{
+        .uslugaPageTop{
+            background-image: url("../../assets/img/uslugaBgMobile2.png");
+            background-size: cover;
+            .container-xl{
+                .rowUslugaTop{
+                    flex-direction: column-reverse;
+                    .contentUsluga{
+                        width: auto;
+                        p{
+                            font-size: 33px;
+                            text-align: center;
+                        }
+                        h6{
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                    }
+                    .imgUsluga{
+                        width: auto;
+                        margin-bottom: 50px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .allUslugaWrapper{
+            background-image: url("../../assets/img/uslugabgMobile.png");
+            background-position-y: 700px;
+            .allUsluga{
+                .uslugaTitile{
+                    font-size: 25px;
+                    text-align: center;
+                }
+                .usluga_cards{
+                    margin-top: 30px;
+                    .slide_card{
+                        flex-direction: column;
+                        .col-5{
+                            flex-direction: column;
+                            width: 90%;
+                            margin-left: 5%;
+                            justify-content: center;
+                            align-items: center;
+                            img{
+                                width: 140px !important;
+                                height: auto;
+                            }
+                            .card_content {
+                                width: 100%;
+                                justify-content: center;
+                                align-items: center;
+                                h6{
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .ourDocWrap{
+                background-image: none;
+                .container-xl{
+                    .ourDoctors{
+                        margin-top: 50px;
+                        .docTitle{
+                            font-size: 25px;
+                        }
+                        .doc_cards{
+                            margin-top: 30px;
+                            .doc_cards_row{
+                                // width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: inherit;
+                                overflow: scroll;
+                                .col-4{
+                                    width: 90%;
+                                    margin-left: 5%;
+                                    .card_content{
+                                        h6{
+                                            text-align: center;
+                                        }
+                                        p{
+                                            text-align: center;
+                                        }
+                                    }
+                                }
+                            }
+                            .doc_cards_row::-webkit-scrollbar {
+                                width: 50%;
+                                background: #C0C0C0;
+                                height: 3px;
+                              }
+                              
+                              /* Track */
+                              .doc_cards_row::-webkit-scrollbar-track {
+                                width:50%;
+                                border-radius: 20px;
+                              }
+                              
+                              /* Handle */
+                              .doc_cards_row::-webkit-scrollbar-thumb {
+                                background: #E5097F !important;
+                                height: 3px;
+                              }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .uslugaPage{
+        .uslugaPageTop{
+            background-image: url("../../assets/img/uslugaBgMobile2.png");
+            background-size: cover;
+            .container-xl{
+                .rowUslugaTop{
+                    flex-direction: column-reverse;
+                    .contentUsluga{
+                        width: auto;
+                        p{
+                            font-size: 33px;
+                            text-align: center;
+                        }
+                        h6{
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                    }
+                    .imgUsluga{
+                        width: auto;
+                        margin-bottom: 50px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .allUslugaWrapper{
+            background-image: url("../../assets/img/uslugabgMobile.png");
+            background-position-y: 700px;
+            .allUsluga{
+                .uslugaTitile{
+                    font-size: 25px;
+                    text-align: center;
+                }
+                .usluga_cards{
+                    margin-top: 30px;
+                    .slide_card{
+                        flex-direction: column;
+                        .col-5{
+                            flex-direction: column;
+                            width: 90%;
+                            margin-left: 5%;
+                            justify-content: center;
+                            align-items: center;
+                            img{
+                                width: 140px !important;
+                                height: auto;
+                            }
+                            .card_content {
+                                width: 100%;
+                                justify-content: center;
+                                align-items: center;
+                                h6{
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .ourDocWrap{
+                background-image: none;
+                .container-xl{
+                    .ourDoctors{
+                        margin-top: 50px;
+                        .docTitle{
+                            font-size: 25px;
+                        }
+                        .doc_cards{
+                            margin-top: 30px;
+                            .doc_cards_row{
+                                // width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: inherit;
+                                overflow: scroll;
+                                .col-4{
+                                    width: 45%;
+                                    margin-left: 5%;
+                                    .card_content{
+                                        h6{
+                                            text-align: center;
+                                        }
+                                        p{
+                                            text-align: center;
+                                        }
+                                    }
+                                }
+                            }
+                            .doc_cards_row::-webkit-scrollbar {
+                                width: 50%;
+                                background: #C0C0C0;
+                                height: 3px;
+                              }
+                              
+                              /* Track */
+                              .doc_cards_row::-webkit-scrollbar-track {
+                                width:50%;
+                                border-radius: 20px;
+                              }
+                              
+                              /* Handle */
+                              .doc_cards_row::-webkit-scrollbar-thumb {
+                                background: #E5097F !important;
+                                height: 3px;
+                              }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .uslugaPage{
+        .allUslugaWrapper{
+            .ourDocWrap{
+                background-image: none;
+                .container-xl{
+                    .ourDoctors{
+                        .doc_cards{
+                            .doc_cards_row{
+                                .col-4{
+                                    width: 60%;
+                                    margin-left: 5%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

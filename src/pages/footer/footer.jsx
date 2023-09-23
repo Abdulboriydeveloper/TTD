@@ -9,8 +9,8 @@ import PhoneIcon from "../../assets/img/Phone.png";
 function Footer() {
   return (
     <div className="footer">
-      <div className="container px-0">
-        <div class="row mb-5">
+      <div className="container-xl px-0">
+        <div class="row">
             <div class="col-md-3 logoFooter">
               <a href="#" class="footer-site-logo"><img src={Logo} alt="" /></a>
               <span>
@@ -19,7 +19,8 @@ function Footer() {
                 <img src={FacebookIcon} alt="" />
               </span>
             </div>
-            <div class="col-md-2 ml-auto firstCalFooter">
+            <div className="footerTabs">
+            <div class=" firstCalFooter">
               <h3>Карта сайта</h3>
               <ul class="list-unstyled links linksFirstCal">
                 <li><a href="#">О компании</a></li>
@@ -29,7 +30,7 @@ function Footer() {
                 <li><a href="#">Контакты</a></li>
               </ul>
             </div>
-            <div class="col-md-2 ml-auto firstCalFooter">
+            <div class=" firstCalFooter">
               <h3>Услуги</h3>
               <ul class="list-unstyled links linksFirstCal">
                 <li><a href="#">УЗД</a></li>
@@ -39,26 +40,27 @@ function Footer() {
                 <li><a href="#">МСКТ</a></li>
               </ul>
             </div>
-            <div class="col-md-2 ml-auto firstCalFooter">
+            <div class=" firstCalFooter">
               <h3>Наши контакты</h3>
-                <ul class="list-unstyled links linksFirstCal">
-                <li>
-                  <span><img src={PhoneIcon} alt="" /></span>
-                  <a className='contactTxt' href="#">+9987171207939</a>
-                </li>
-                <li>
-                  <span><img src={TgIcon} alt="" /></span>
-                  <a className='contactTxt' href="#">@ttduzbot</a>
-                </li>
-                <li>
-                  <span><img src={InstaIcon} alt="" /></span>
-                  <a className='contactTxt' href="#">@ttdclinic</a>
-                </li>
-                <li>
-                  <span><img src={FacebookIcon} alt="" /></span>
-                  <a className='contactTxt' href="#">TTD_clinic</a>
-                </li>
-              </ul>
+                <ul class="list-unstyled links linksFirstCal contactLinks">
+                  <li className='num'>
+                    <span><img src={PhoneIcon} alt="" /></span>
+                    <a className='contactTxt' href="#">+9987171207939</a>
+                  </li>
+                  <li className='tg'>
+                    <span><img src={TgIcon} alt="" /></span>
+                    <a className='contactTxt' href="#">@ttduzbot</a>
+                  </li>
+                  <li className='insta'>
+                    <span><img src={InstaIcon} alt="" /></span>
+                    <a className='contactTxt' href="#">@ttdclinic</a>
+                  </li>
+                  <li className='facebook'>
+                    <span><img src={FacebookIcon} alt="" /></span>
+                    <a className='contactTxt' href="#">TTD_clinic</a>
+                  </li>
+                </ul>
+            </div>
             </div>
         </div>
       </div>

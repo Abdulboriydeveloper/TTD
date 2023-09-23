@@ -1,0 +1,283 @@
+button{
+    cursor: pointer;
+}
+
+.priceList_wrape{
+    .container-xl{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+    .price{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: block;
+        .price_header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            h1{
+                color: #DB2777;
+                text-align: center;
+                font-family: Oswald;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 97.523%; /* 39.009px */
+                b{
+                    color: #191919;
+                    font-family: Oswald;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 97.523%;
+                }
+            }
+            .search_wrap{
+                height: 30px;
+                border-bottom: 1px solid rgba(25, 25, 25, 0.50);
+                input{
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+        .price_body{
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+            width: 100%;
+            .price_body_inner{
+                width: 425px;
+                overflow-y: auto;
+                .ex3 {
+                  height: 60vh;
+                  overflow: auto;
+                  padding-right: 2%;
+                  .analz_name{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 4px;
+                    .tab {
+                        color: #191919;
+                            font-family: Oswald;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 97.523%; /* 24.381px */
+                            padding-top: 10px;
+                            padding-left: 25px;
+                    }
+                    .tab:hover {
+                        cursor: pointer;
+                    }
+                    .activeTab {
+                        width: 265px;
+                        height: 45px;
+                        border-radius: 42px;
+                        background-color: #A48DFF;
+                        color: #FFF;
+                        padding: 5px 25px;
+                    }
+                    button{
+                        width: 265px;
+                        height: 45px;
+                        flex-shrink: 0;
+                        background: none;
+                        border-radius: 42px;
+                        border-style: none;
+                        text-align: initial;
+                        outline: none;
+                        p{
+                            color: #191919;
+                            font-family: Oswald;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 97.523%; /* 24.381px */
+                            padding-top: 10px;
+                            padding-left: 25px;
+                        }
+                    }
+                  }
+                }
+                .ex3::-webkit-scrollbar {
+                  width: 3px;
+                  background: #C0C0C0;
+                  height: 0px;
+                  border-radius: 20px;
+                }
+                
+                /* Track */
+                .ex3::-webkit-scrollbar-track {
+                  width: 4px;
+                  height: 558px;
+                  border-radius: 20px;
+                }
+                
+                /* Handle */
+                .ex3::-webkit-scrollbar-thumb {
+                  width: 10px;
+                  height: 89px;
+                //   background: #382E84;
+                  border-radius: 20px;
+                }
+              }
+            .analiz_price{
+                width: 100%;
+                .search_wrap2{
+                    display: none;
+                }
+                .analiz_price_header{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    p{
+                        color: #191919;
+                        font-family: Oswald;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 97.523%; /* 19.505px */
+                    }
+                }
+                .analiz_price_body{
+                    padding-left: 30px;
+                    margin-top: 20px;
+                    overflow-y: auto;
+                    .ex4{
+                        height: 54vh;
+                        overflow: auto;
+                        padding-right: 2%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        span{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            border-bottom: 1px solid rgba(25, 25, 25, 0.50);
+                            p{
+                                color: #000;
+                                font-family: Oswald;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 97.523%; /* 17.554px */
+                                margin-bottom: 0.4rem !important;
+                            }
+                            b{
+                                color: #000;
+                                font-family: Oswald;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 300;
+                                line-height: 97.523%; /* 17.554px */
+                                margin-bottom: 0.4rem !important;
+                            }
+                        } 
+                    }
+                    .ex4::-webkit-scrollbar {
+                        width: 3px;
+                        background: #C0C0C0;
+                        height: 0px;
+                        border-radius: 20px;
+                      }
+                      
+                      /* Track */
+                      .ex4::-webkit-scrollbar-track {
+                        width: 4px;
+                        height: 558px;
+                        border-radius: 20px;
+                      }
+                      
+                      /* Handle */
+                      .ex4::-webkit-scrollbar-thumb {
+                        width: 10px;
+                        height: 89px;
+                        background: #E5097F;;
+                        border-radius: 20px;
+                      }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .priceList_wrape{
+        .price{
+            margin-top: 50px;
+            .price_header{
+                .search_wrap{
+                    display: none !important;
+                }
+            }
+            .price_body{
+                flex-direction: column;
+                margin-top: 20px;
+                .price_body_inner{
+                    width: 100% !important;
+                    .ex3 .analz_name .tab {
+                        padding-left: 0;
+                        text-align: center;
+                    }
+                }
+                .analiz_price{
+                    margin-top: 30px;
+                    width: 100% !important;
+                    .search_wrap2{
+                        gap: 10px;
+                        display: flex !important;
+                        // width: 95%;
+                        // margin-left: 5%;
+                        display: block;
+                        height: 30px;
+                        border-bottom: 1px solid rgba(25, 25, 25, 0.50);
+                        align-items: center;
+                        img{
+                            width: 17px;
+                            height: 17px;
+                        }
+                        input{
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                    .analiz_price_header{
+                        margin-top: 20px;
+                    }
+                    .analiz_price_body{
+                        margin-top: 10px;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .priceList_wrape{
+        .price{
+            .price_body{
+                .price_body_inner{
+                    width: 50%;
+                    .ex3{
+                        width: 100%;
+                        .analz_name{
+                            width: 100%;
+                            button{
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+                .analiz_price{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

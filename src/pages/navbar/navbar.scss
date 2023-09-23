@@ -1,4 +1,8 @@
 .navWrap{
+    .container-xl{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
     .content{
         height: 85px;
         display: flex;
@@ -34,7 +38,6 @@
             }
         }
         .contactNav{
-            width: 221px;
             border-left: 3px solid #DB2777;
             padding-left: 30px;
             p{
@@ -45,10 +48,13 @@
                 color: #1A1A1A;
                 font-weight: 400;
                 font-family: Roboto;
-                width: 300px;
                 text-align: start;
                 span{
                     margin-left: 5px;
+                    // cursor: pointer;
+                }a{
+                    text-decoration: none;
+                    color: #1A1A1A;
                 }
             }
         }
@@ -61,17 +67,40 @@
                 display: flex;
                 justify-content: space-between;
                 li{
+                    display: flex;
+                    justify-content: center;
                     a{
                         color: #FFFFFF;
                     }
+                      .language{
+                        border-style: none;
+                        background: none;
+                        color: white;
+                        outline: none;
+                      }:hover{
+                        text-decoration: none;
+                      }
                 }
             }
         }
+        .navbar-toggler{
+            border: none;
+        }
+    }
+    .fixedNav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 78787878;
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 992px) {
     .navWrap{
+        .container-xl{
+            // padding: 0 !important;
+        }
         .content{
             display: none;
         }

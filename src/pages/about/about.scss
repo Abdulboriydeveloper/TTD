@@ -1,0 +1,595 @@
+.aboutPage{
+    .aboutPageTop{
+        background-image: url("../../assets/img/aboutImg.png");
+        background-repeat: no-repeat;
+        .container-xl{
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+            .aboutTopRow{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .topContent{
+                    width: 60%;
+                    p{
+                        color: #DB2777;
+                        font-family: Oswald;
+                        font-size: 60px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 97.523%; /* 58.514px */
+                        text-align: left;
+                        b{
+                            color: #191919;
+                        }
+                    }
+                    h6{
+                        color: #000;
+                        font-family: Oswald;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        text-align: left;
+                        margin-top: 30px;
+                    }
+                }
+                .abotTopImg{
+                    width: 40%;
+                    margin-top: 90px;
+                    margin-bottom: 100px;
+                }
+            }
+ 
+        }
+    }
+    .aboutClinicWrapper{
+        background-image: url("../../assets/img/aboutbg.png");
+        background-repeat: no-repeat;
+        background-position-y: 80px;
+        .container-xl{
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+        }
+        .aboutClinic{
+            margin-top: 100px;
+            display: flex;
+            gap: 1%;
+            .aboutClinicTitleMobile{
+                display: none;
+            }
+            .clinicImg{
+                margin-top: 5px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 25px;
+                .chartImg{
+                    position: absolute;
+                    margin-top: 13%;
+                    margin-left: 20.3%;
+                }
+                .img18{
+                    position: absolute;
+                    margin-top: 32%;
+                    margin-left: 10%;
+                }
+                .img3{
+                    height: 280px;
+                }
+            }
+            .clinicText{
+                width: 100%;
+                h1{
+                    color: #191919;
+                    font-family: Oswald;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 97.523%; /* 39.009px */
+                    text-align: left;
+                    margin-bottom: 50px;
+                    b{
+                        color: #DB2777;
+                    }
+                }
+                p{
+                    text-align: left;
+                    color: #191919;
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 122%; /* 24.4px */
+                    // margin-top: 50px;
+                }
+            }
+        }
+        .aboutSlider{
+            h1{
+                color: #DB2777;
+                font-family: Oswald;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 97.523%; /* 39.009px */
+                margin-top: 100px;
+            }
+            .sliderRow{
+                margin-top: 70px;
+                .col{
+                    padding: 0;
+                    padding-bottom: 100px;
+                    .slick-slider{
+                        .slick-arrow{
+                            display: none !important;
+                        }
+                        .slick-dots li {
+                            width: 80px;
+                        }
+                        .slick-dots li button:before {
+                            font-family: 'slick';
+                            font-size: 6px;
+                            line-height: 20px;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 90px;
+                            height: 2px;
+                            content: '';
+                            text-align: center;
+                            color: black;
+                            background-color: #DB2777;
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                        }
+                        .slick-list{
+                            // padding-left: 2.3%;
+                            .slick-track{
+                                display: flex;
+                                gap: 15px;
+                                .slick-slide{
+                                    padding-bottom: 100px;
+                                    div{
+                                        .slide_card{
+                                            display: flex !important;
+                                            flex-direction: column !important;
+                                            justify-content: center !important;
+                                            align-items: start !important;
+                                            border-radius: 42px;
+                                            border: 1px solid rgba(0, 0, 0, 0.10);
+                                            background: #FFF;
+                                            padding: 23px;
+                                            img{
+                                                width: 100% !important;
+                                                height: 304px;
+                                                border-radius: 42px;
+                                                // margin: 23px auto;
+                                            }
+                                            h6{
+                                                color: #DB2777;
+                                                font-family: Oswald;
+                                                font-size: 25px;
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                line-height: 97.523%; /* 24.381px */
+                                                margin-top: 27px;
+                                                text-align: left;
+                                                height: 40px;
+                                            }
+                                            p{
+                                                color: #191919;
+                                                font-family: Roboto;
+                                                font-size: 15px;
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                line-height: 97.523%; /* 14.628px */
+                                                text-align: left;
+                                                margin-top: 20px;
+                                            }
+                                        }
+                                        .slide_card:hover{
+                                            box-shadow: 7px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .apparats{
+            .container-xl{
+                padding-left: 5% !important;
+                padding-right: 5% !important;
+                h1{
+                    text-align: left;
+                    color: #DB2777;
+                    font-family: Oswald;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 97.523%; /* 39.009px */
+                }
+                .appRow{
+                    margin-top: 20px;
+                    margin-bottom: 100px;
+                    .app_card{
+                        border-radius: 42px;
+                        border: 1px solid rgba(0, 0, 0, 0.10);
+                        background: #FFF;
+                        display: flex;
+                        flex-direction: row;
+                        padding: 23px;
+                        margin-top: 30px;
+                        align-items: center;
+                        gap: 8%;
+                        .appCardContent{
+                            h6{
+                                color: #DB2777;
+                                font-family: Oswald;
+                                font-size: 25px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 97.523%; /* 24.381px */
+                                text-align: start;
+                            }
+                            p{
+                                color: #191919;
+                                font-family: Roboto;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 97.523%; /* 17.554px */
+                                text-align: start;
+                                margin-top: 30px;
+                            }
+                        }
+                        img{
+                            width: 442px;
+                            height: 442px;
+                            border-radius: 42px;
+                        }
+                    }
+                    .app_card:nth-of-type(even){
+                        display: flex;
+                        flex-direction: row-reverse;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .aboutPage{
+        .aboutPageTop{
+            background-image: url("../../assets/img/aboutBgMobile.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            .container-xl{
+                .aboutTopRow{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    .col{
+                        width: auto;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .abotTopImg{
+                        margin-bottom: 30px !important;
+                    }
+                    .topContent{
+                        p{
+                            font-size: 33px;
+                            text-align: center;
+                        }
+                        h6{
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                    }
+                    .abotTopImg{
+                        margin-top: 20px;
+                        margin-bottom: 70px;
+                    }
+                }
+            }
+        }
+        .aboutClinicWrapper{
+            background-position: bottom;
+            .aboutClinic{
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+                .aboutClinicTitleMobile{
+                    display: block;
+                    color: #191919;
+                    font-family: Oswald;
+                    font-size: 25px;
+                    margin-bottom: 30px;
+                    b{
+                        color: #DB2777;
+                    }
+                }
+                .clinicImg{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 14px;
+                    width: 90% !important;
+                    margin-left: 5%;
+                    .img1{
+                        width: 248px;
+                    }
+                    .img2{
+                        width: 124px;
+                        height: 170px;
+                    }
+                    .img3{
+                        width: 160px;
+                        height: 155px;
+                    }
+                    .chartImg{
+                        width: 133px;
+                        height: 123px;
+                        margin-left: 50%;
+                        margin-top: 28%;
+                    }
+                    .img18{
+                        width: 80px;
+                        height: 40px;
+                        margin-top: 75%;
+                        margin-left: 22%;
+                    }
+                }
+                .clinicText{
+                    width: 90% !important;
+                    margin-left: 5%;
+                    h1{
+                        display: none;
+                    }
+                    p{
+                        text-align: center;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        .aboutSlider{
+            margin-bottom: -55px;
+            h1{
+                font-size: 25px !important;
+                margin-top: 50px !important;
+                margin-bottom: 30px !important;
+            }
+            .sliderRow {
+                .col {
+                    .slick-slider {
+                        .slick-list{
+                            .slick-track{
+                                .slick-slide {
+                                    display: flex;
+                                    justify-content: center;
+                                    div{
+                                        .slide_card{
+                                            width: 90% !important;
+                                            margin-left: 5%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .slick-dots{
+                            bottom: 20px;
+                            li{
+                                width: auto !important;
+                                margin: 0;
+                            }
+                        }
+                        .slick-dots li button:before {
+                            width: 20px !important;
+                            height: 2px;
+                            background-color: #DB2777;
+                        }
+                    }
+                }
+            }
+        }
+        .apparats{
+            h1{
+                text-align: center !important;
+            }
+            .container-xl{
+                .appRow{
+                    justify-content: center;
+                    .app_card{
+                        width: 90%;
+                        display: flex !important;
+                        flex-direction: column-reverse !important;
+                        img{
+                            height: auto !important;
+                        }
+                        .appCardContent{
+                            h6{
+                                text-align: center !important;
+                            }
+                            p{
+                                text-align: center !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .aboutPage{
+        .aboutPageTop{
+            background-image: url("../../assets/img/aboutBgMobile.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            .container-xl{
+                .aboutTopRow{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    .col{
+                        width: auto;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .abotTopImg{
+                        margin-bottom: 30px !important;
+                    }
+                    .topContent{
+                        p{
+                            font-size: 33px;
+                            text-align: center;
+                        }
+                        h6{
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                    }
+                    .abotTopImg{
+                        margin-top: 20px;
+                        margin-bottom: 70px;
+                    }
+                }
+            }
+        }
+        .aboutClinicWrapper{
+            background-position: bottom;
+            .aboutClinic{
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+                .aboutClinicTitleMobile{
+                    display: block;
+                    color: #191919;
+                    font-family: Oswald;
+                    font-size: 25px;
+                    margin-bottom: 30px;
+                    b{
+                        color: #DB2777;
+                    }
+                }
+                .clinicImg{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 14px;
+                    width: 90% !important;
+                    margin-left: 5%;
+                    .img1{
+                        width: 248px;
+                    }
+                    .img2{
+                        width: 124px;
+                        height: 170px;
+                    }
+                    .img3{
+                        width: 160px;
+                        height: 155px;
+                    }
+                    .chartImg{
+                        width: 133px;
+                        height: 123px;
+                        margin-left: 50%;
+                        margin-top: 28%;
+                    }
+                    .img18{
+                        width: 80px;
+                        height: 40px;
+                        margin-top: 75%;
+                        margin-left: 22%;
+                    }
+                }
+                .clinicText{
+                    width: 90% !important;
+                    margin-left: 5%;
+                    h1{
+                        display: none;
+                    }
+                    p{
+                        text-align: center;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        .aboutSlider{
+            margin-bottom: -55px;
+            h1{
+                font-size: 25px !important;
+                margin-top: 50px !important;
+                margin-bottom: 30px !important;
+            }
+            .sliderRow {
+                .col {
+                    .slick-slider {
+                        .slick-list{
+                            .slick-track{
+                                .slick-slide {
+                                    display: flex;
+                                    justify-content: center;
+                                    div{
+                                        .slide_card{
+                                            width: 90% !important;
+                                            margin-left: 5%;
+                                            img{
+                                                height: auto !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .slick-dots{
+                            bottom: 20px;
+                            li{
+                                width: auto !important;
+                                margin: 0;
+                            }
+                        }
+                        .slick-dots li button:before {
+                            width: 20px !important;
+                            height: 2px;
+                            background-color: #DB2777;
+                        }
+                    }
+                }
+            }
+        }
+        .apparats{
+            h1{
+                text-align: center !important;
+            }
+            .container-xl{
+                .appRow{
+                    justify-content: center;
+                    .app_card{
+                        width: 90%;
+                        display: flex !important;
+                        flex-direction: column-reverse !important;
+                        img{
+                            height: auto !important;
+                        }
+                        .appCardContent{
+                            h6{
+                                text-align: center !important;
+                            }
+                            p{
+                                text-align: center !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

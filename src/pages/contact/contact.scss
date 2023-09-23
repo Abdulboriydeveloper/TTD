@@ -1,0 +1,278 @@
+.contactPage{
+    .container-xl{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        h1{
+            color: #191919;
+            font-family: Oswald;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 97.523%; /* 39.009px */
+            text-align: start;
+            margin: 50px auto;
+            b{
+                color: #DB2777;
+            }
+        }
+        .aloqa{
+            h2{
+                color: #191919;
+                font-family: Oswald;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%; /* 36px */
+                text-align: start;
+            }
+            .aloqaRow{
+                .col-3{
+                    display: flex;
+                    justify-content: start;
+                    margin-top: 50px;
+                    gap: 10px;
+                    img{
+                        width: 38px;
+                        height: 35px;
+                        margin-top: 5px;
+                    }
+                    .num_div{
+                        p{
+                            color: #191919;
+                            font-family: Roboto;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 97.523%; /* 17.554px */
+                            text-align: start;
+                            margin: 0;
+                            margin-bottom: 7px;
+                        }
+                        h4{
+                            color: #191919;
+                            font-family: Roboto;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 97.523%; /* 24.381px */
+                            text-align: start;
+                        }
+                    }
+                }
+            }
+        }
+        .lokatsya{
+            h2{
+                color: #191919;
+                font-family: Oswald;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%; /* 36px */
+                text-align: start;
+                margin-top: 50px;
+            }
+            .locationRow{
+                .col-4{
+                    margin-top: 54px;
+                    .locationDiv{
+                        display: flex;
+                        img{
+                            width: 25px;
+                            height: 35px;
+                        }
+                        p{
+                            color: #191919;
+                            font-family: Roboto;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 97.523%; /* 24.381px */
+                            padding-left: 3%;
+                        }
+                    }
+                    h4{
+                        color: #191919;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 97.523%; /* 17.554px */
+                        text-align: start;
+                        padding-left: 2%;
+                    }
+                }
+            }
+        }
+    }
+}
+.contactMap{
+    margin-top: 50px;
+}
+.demo1{
+    border-radius: 42px 42px 0px 0px !important;
+}
+.ymaps-2-1-79-inner-panes, .demo1 div {
+    box-sizing: border-box;
+    width: 100% !important;
+    height: 500px !important;
+    border-radius: 42px 42px 0px 0px !important;
+    margin: 0 auto !important;
+  }
+  .ymaps-2-1-79-copyright {
+    display: none !important;
+  }
+  
+  .demo1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 42px 42px 0px 0px !important;
+    .ymaps-2-1-79-gototech{
+        display: none !important;
+      }
+      .ymaps-2-1-79-map-copyrights-promo{
+        display: none;
+      }
+      .ymaps-2-1-79-map {
+        border-radius: 42px 42px 0px 0px !important;
+      }
+  }
+
+  @media screen and (max-width: 390px) {
+    .contactPage{
+        .container-xl{
+            h1{
+                font-size: 25px;
+                margin-top: 20px;
+                margin-bottom: 35px;
+            }
+            .aloqa{
+                h2{
+                    font-size: 20px;
+                }
+                .aloqaRow{
+                    flex-direction: column;
+                    .col-3{
+                        width: 250px;
+                        margin-top: 20px;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            margin-top: 8px;
+                        }
+                        .num_div{
+                            p{
+                                font-size: 15px;
+                            }
+                            h4{
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+            .lokatsya{
+                h2{
+                    font-size: 25px;
+                    margin-top: 30px;
+                }
+                .locationRow{
+                    flex-direction: column;
+                    .col-4{
+                        width: 100%;
+                        margin-top: 30px;
+                        .locationDiv{
+                            img{
+                                width: 15px;
+                                height: 21px;
+                            }
+                            p{
+                                font-size: 18px;
+                            }
+                        }
+                        h2{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .contactPage{
+        .container-xl{
+            h1{
+                font-size: 25px;
+                margin-top: 20px;
+                margin-bottom: 35px;
+            }
+            .aloqa{
+                h2{
+                    font-size: 20px;
+                }
+                .aloqaRow{
+                    // flex-direction: column;
+                    .col-3{
+                        // width: 250px;
+                        margin-top: 20px;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            margin-top: 8px;
+                        }
+                        .num_div{
+                            p{
+                                font-size: 15px;
+                            }
+                            h4{
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+            .lokatsya{
+                h2{
+                    font-size: 25px;
+                    margin-top: 30px;
+                }
+                .locationRow{
+                    flex-direction: column;
+                    .col-4{
+                        width: 100%;
+                        margin-top: 30px;
+                        .locationDiv{
+                            img{
+                                width: 15px;
+                                height: 21px;
+                            }
+                            p{
+                                font-size: 18px;
+                            }
+                        }
+                        h2{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+
+  @media screen and (max-width: 715px) {
+    .contactPage{
+        .container-xl{
+            .aloqa{
+                .aloqaRow{
+                    flex-direction: column;
+                    .col-3{
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+  }

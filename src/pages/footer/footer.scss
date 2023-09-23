@@ -2,7 +2,12 @@
     background-color: #000000;
     color: #FFFFFF;
     padding-top: 60px;
-        padding-bottom: 80px;
+    padding-bottom: 80px;
+    .container-xl{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
     .row{
         .logoFooter{
             display: flex;
@@ -16,37 +21,43 @@
                 margin-top: 25px;
             }
         }
-        .firstCalFooter{
-            h3{
-                display: flex;
-                color: #FFFFFF;
-                font-size: 22px;
-                line-height: 25px;
-                font-weight: 700;
-                font-family: Roboto;
-            }
-            .linksFirstCal{
-                display: flex;
-                flex-direction: column;
-                align-items: baseline;
-                gap: 5px;
-                margin-top: 20px;
-                li{
-                    span{
-                        img{
-                            width: 20px;
-                            height: 20px;
+        .footerTabs{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15%;
+            margin-top: 30px;
+            .firstCalFooter{
+                h3{
+                    display: flex;
+                    color: #FFFFFF;
+                    font-size: 22px;
+                    line-height: 25px;
+                    font-weight: 700;
+                    font-family: Roboto;
+                }
+                .linksFirstCal{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: baseline;
+                    gap: 5px;
+                    margin-top: 20px;
+                    li{
+                        span{
+                            img{
+                                width: 20px;
+                                height: 20px;
+                            }
                         }
-                    }
-                    a{
-                        color: #FFFFFF;
-                        font-size: 14px;
-                        line-height: 16px;
-                        font-weight: 600;
-                        font-family: Roboto;
-                    }
-                    .contactTxt{
-                        margin-left: 15px;
+                        a{
+                            color: #FFFFFF;
+                            font-size: 14px;
+                            line-height: 16px;
+                            font-weight: 600;
+                            font-family: Roboto;
+                        }
+                        .contactTxt{
+                            margin-left: 15px;
+                        }
                     }
                 }
             }
@@ -54,11 +65,49 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 390px) {
     .footer{
+        padding-top: 35px;
+        padding-bottom: 40px;
         .row{
             width: 90%;
             margin-left: 5%;
+            .logoFooter{
+                margin-left: -5%;
+                span{
+                    display: none;
+                }
+            }
+            .footerTabs{
+                gap: 20%;
+                margin-top: 30px;
+                .firstCalFooter{
+                    .contactLinks{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 15%;
+                        .num{
+                            display: flex;
+                            align-items: center;
+                        }
+                        .tg{
+                            a{
+                                display: none;
+                            }
+                        }
+                        .insta{
+                            a{
+                                display: none;
+                            }
+                        }
+                        .facebook{
+                            a{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }    
 }
